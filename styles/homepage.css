@@ -3,6 +3,7 @@
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", serif;
   --secondary-color: #f1f1f1;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 h1,
@@ -72,6 +73,34 @@ p {
 
 .project-descriptions {
   padding: 120px 60px;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.contact-link {
+  background-color: var(--branding-color);
+  color: white;
+  font-weight: bold;
+  box-shadow: var(--box-shadow);
+}
+
+.about-link {
+  background-color: var(--secondary-color);
+  color: var(--branding-color);
+  border: 2px solid var(--branding-color);
+  font-weight: bold;
 }
 
 @media (max-width: 900px) {
