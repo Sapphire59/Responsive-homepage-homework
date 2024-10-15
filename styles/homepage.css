@@ -34,8 +34,10 @@ h3 {
 }
 
 h4 {
-  font-size: 25px;
-  opacity: 0.7;
+  font-size: 55px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
 }
 h5 {
   font-size: 35px;
@@ -47,8 +49,8 @@ h5 {
 p {
   font-family: var(--default-font-family);
   font-weight: normal;
-  font-size: 17px;
-  line-height: 30px;
+  font-size: 20px;
+  line-height: 1.5;
   padding: 30px;
   border-radius: 4px;
 
@@ -56,12 +58,24 @@ p {
   margin: 5px;
 }
 
-.about-paragraphs {
-  display: flex;
-  margin: 30px 0;
+.about-section {
+  padding: 160px 20px;
 }
-.about-paragraphs p {
+.about-section-content {
   margin: 10px;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+
+.woman-link {
+  text-decoration: none;
 }
 
 .hero {
@@ -172,12 +186,14 @@ p {
 }
 @media (max-width: 900px) {
   h1 {
-    font-size: 44px;
-    line-height: 2;
+    font-size: 40px;
+    line-height: 1.5;
+    text-align: center;
   }
 
   h2 {
     font-size: 44px;
+    text-align: center;
   }
 
   .hero {
@@ -187,7 +203,15 @@ p {
     padding: 0;
     text-align: center;
   }
-  img {
-    display: none;
+
+  .about-section {
+    text-align: center;
+    padding: 0;
+  }
+
+  .woman-link {
+    display: block;
+    margin: 0 auto;
+    padding: 15px;
   }
 }
