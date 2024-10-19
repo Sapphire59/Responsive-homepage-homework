@@ -56,7 +56,7 @@ p {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 .content {
   margin: 20px;
@@ -89,18 +89,11 @@ p {
 }
 
 .hero {
-  background-color: white;
+  background-color: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
-.hero p {
-  font-size: 15px;
-
-  margin: 0 auto;
-  color: #141010;
-  line-height: 30px;
-}
 .hero h2 {
   font-family: var(--heading-font-family);
   font-weight: 300px;
@@ -129,6 +122,11 @@ p {
 
 .project-descriptions {
   padding: 120px 60px;
+}
+
+.hero-info {
+  font-size: 15px;
+  line-height: 30px;
 }
 
 .navigation-links {
@@ -168,8 +166,7 @@ p {
   background-color: var(--secondary-color);
 
   border-radius: 10px;
-  max-width: 110%;
-  margin-top: 120px;
+
   box-shadow: var(--box-shadow);
 }
 
@@ -271,9 +268,6 @@ footer .my-email-link:hover {
     font-size: 18px;
   }
 
-  .hero {
-    padding: 80px 20px;
-  }
   .project-descriptions {
     padding: 0;
     text-align: center;
