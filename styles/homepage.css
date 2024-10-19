@@ -2,15 +2,14 @@
   --branding-color: #6c63ff;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", serif;
-  --secondary-color: #f1f1f1;
+
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
 }
 
 h1,
-h2,
-h5 {
+h2 {
   font-family: var(--heading-font-family);
   text-align: center;
   margin: 0 auto;
@@ -40,10 +39,8 @@ h4 {
   color: black;
 }
 h5 {
-  font-size: 35px;
+  font-size: 48px;
   font-weight: bold;
-  color: black;
-  padding: 12px;
 }
 
 p {
@@ -92,14 +89,14 @@ p {
 }
 
 .hero {
-  background-color: var(--secondary-color);
+  background-color: white;
   text-align: center;
   padding: 160px 20px;
 }
 
 .hero p {
-  font-size: 14px;
-  font-weight: bold;
+  font-size: 15px;
+
   margin: 0 auto;
   color: #141010;
   line-height: 30px;
@@ -108,7 +105,7 @@ p {
   font-family: var(--heading-font-family);
   font-weight: 300px;
   line-height: 1.4;
-  font-size: 24px;
+  font-size: 44px;
   font-weight: bold;
 }
 
@@ -168,9 +165,12 @@ p {
   padding: 10px;
 }
 .run-pic {
-  max-width: 98%;
-  height: 90%;
-  margin-right: 20px;
+  background-color: var(--secondary-color);
+
+  border-radius: 10px;
+  max-width: 110%;
+  margin-top: 120px;
+  box-shadow: var(--box-shadow);
 }
 
 .homepage-link {
@@ -219,6 +219,42 @@ nav li.active a {
 nav li.active a {
 }
 
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+  padding: 5px;
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background-color: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+
+  font-size: 20px;
+}
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--branding-color);
+  transition: all 100ms ease-in-out;
+}
+
+footer .my-email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+}
+footer .my-email-link:hover {
+  color: var(--branding-color);
+}
+
 @media (max-width: 800px) {
   h1,
   h4 {
@@ -230,6 +266,9 @@ nav li.active a {
   h2 {
     font-size: 44px;
     text-align: center;
+  }
+  h5 {
+    font-size: 18px;
   }
 
   .hero {
@@ -259,5 +298,10 @@ nav li.active a {
   }
   nav a {
     font-size: 14px;
+  }
+
+  footer .contact-box {
+    padding: 30px;
+    margin-top: 20px;
   }
 }
