@@ -173,13 +173,6 @@ p {
   margin-right: 20px;
 }
 
-.about-link {
-  background-color: var(--secondary-color);
-  color: var(--branding-color);
-  border: 2px solid var(--branding-color);
-  font-weight: bold;
-}
-
 .homepage-link {
   color: var(--primary-color);
   text-align: center;
@@ -191,8 +184,44 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+
+.logo {
+  max-height: 40px;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+  font-weight: 500;
+}
+
+nav a {
+  text-decoration: none;
+  color: #141010;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+  transition: all 100ms ease-in-out;
+}
+
+nav li.active a {
+}
+
 @media (max-width: 800px) {
-  h1 {
+  h1,
+  h4 {
     font-size: 30px;
 
     text-align: center;
@@ -227,5 +256,8 @@ p {
     display: block;
     margin: 0 auto;
     padding: 15px;
+  }
+  nav a {
+    font-size: 14px;
   }
 }
