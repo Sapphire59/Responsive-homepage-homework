@@ -246,7 +246,17 @@ footer .my-email-link:hover {
 }
 
 @media (max-width: 800px) {
-  h1,
+  content h1 {
+    font-size: 20px;
+    margin: 0;
+    line-height: none;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 44px;
+    line-height: 1.5;
+  }
   h4 {
     font-size: 40px;
 
@@ -270,12 +280,9 @@ footer .my-email-link:hover {
     text-align: center;
     padding: 0;
   }
-  .content h1 {
-    font-size: 30px;
-    line-height: none;
-    padding: 0;
-    margin: 50px;
+  .content {
     text-align: center;
+    padding: 0;
   }
 
   .woman-link {
