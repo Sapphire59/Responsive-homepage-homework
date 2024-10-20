@@ -103,7 +103,7 @@ p {
 }
 
 .btn-branding {
-  background-color: var(--branding-color);
+  background: var(--branding-color);
   border-radius: 4px;
   color: white;
   font-size: 18px;
@@ -138,16 +138,9 @@ p {
 .navigation-links a {
   margin: 20px;
   border-radius: 4px;
-  padding: 20px 15px;
+
   text-decoration: none;
   text-transform: capitalize;
-}
-
-.contact-link {
-  background-color: var(--branding-color);
-  color: white;
-  font-weight: bold;
-  box-shadow: var(--box-shadow);
 }
 
 .image-fluid {
@@ -297,5 +290,8 @@ footer .my-email-link:hover {
   footer .contact-box {
     padding: 30px;
     margin-top: 20px;
+  }
+  .btn-branding-outline {
+    display: block;
   }
 }
