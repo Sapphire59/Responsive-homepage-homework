@@ -45,14 +45,13 @@ h5 {
 
 p {
   font-family: var(--default-font-family);
-  font-weight: normal;
-  font-size: 20px;
-
-  padding: 30px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 28px;
+  padding: 20px;
   border-radius: 4px;
-
-  text-align: center;
   margin: 5px;
+  text-align: left;
 }
 
 .content-container {
@@ -124,11 +123,6 @@ p {
   padding: 120px 60px;
 }
 
-.hero-info {
-  font-size: 15px;
-  line-height: 30px;
-}
-
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -155,13 +149,6 @@ p {
   margin: 20px;
   padding: 10px;
 }
-.run-pic {
-  background-color: var(--secondary-color);
-
-  border-radius: 10px;
-
-  box-shadow: var(--box-shadow);
-}
 
 .homepage-link {
   color: var(--primary-color);
@@ -170,6 +157,7 @@ p {
 }
 .email-link {
   color: var(--branding-color);
+  font-weight: 600;
 }
 .email-link:hover {
   text-decoration: underline;
