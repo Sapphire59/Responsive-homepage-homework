@@ -157,7 +157,6 @@ p {
 }
 .email-link {
   color: var(--branding-color);
-  font-weight: 600;
 }
 .email-link:hover {
   text-decoration: underline;
@@ -226,8 +225,9 @@ footer .social-links a:hover {
 footer .my-email-link {
   text-decoration: none;
   color: black;
-  font-size: 24px;
+  font-size: 16px;
   text-align: center;
+  font-weight: 500;
 }
 footer .my-email-link:hover {
   color: var(--branding-color);
